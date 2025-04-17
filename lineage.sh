@@ -16,11 +16,12 @@ ADDITIONAL_FILES=$@
 FILE=$(basename $FILE_PATH)
 
 ID=$(sha256sum $FILE_PATH | cut -d " " -f 1)
-RELEASE=$(echo $FILE | sed s/\.zip//g)
 VERSION=$(echo $FILE | cut -d \- -f 2)
 DATETIME=$(unzip -p $FILE_PATH META-INF/com/android/metadata | grep post-timestamp | cut -d = -f 2)
 URL=https://github.com/danielml3/releases/releases/download/$RELEASE/$FILE
 SIZE=$(du -b $FILE_PATH | cut -f 1)
+
+RELEASE=$(echo $FILE | sed s/\.zip//g)-$DATETIME
 
 cat << EOF > $JSON
 {
