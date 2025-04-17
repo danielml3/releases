@@ -42,4 +42,4 @@ git add .
 git commit -m "$FILE"
 git push
 
-gh release create $RELEASE $FILE_PATH $ADDITIONAL_FILES --title $FILE --latest
+gh release create $RELEASE $FILE_PATH $ADDITIONAL_FILES --title $RELEASE --latest
