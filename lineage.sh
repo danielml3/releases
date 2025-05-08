@@ -39,7 +39,7 @@ cat << EOF > $JSON
 EOF
 
 git add .
-git commit -m "$FILE"
+git commit -m "$FILE" || true
 git push
 
 gh release create $RELEASE $FILE_PATH $ADDITIONAL_FILES --title $RELEASE --latest
