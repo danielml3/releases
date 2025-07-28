@@ -1,13 +1,13 @@
 {
     "response":[
         {
-            "filename":"lineage-22.2-20250509-UNOFFICIAL-gta4xlveu.zip",
-            "id":"fab6e3811853ff5eebc49495f9facb5b1cc44e4b9616a37c5d9e95b4bc617b95",
-            "version":"22.2",
+            "filename":"lineage-23.0-20250728-UNOFFICIAL-gta4xlveu.zip",
+            "id":"9a014f8868ce42a4e29a8b0c5b9b7d8e5c81ae71bc056c589de00dffb0beee04",
+            "version":"23.0",
             "romtype":"unofficial",
-            "datetime":1746798154,
-            "url":"https://github.com/danielml3/releases/releases/download/lineage-22.2-20250509-UNOFFICIAL-gta4xlveu-1746798154/lineage-22.2-20250509-UNOFFICIAL-gta4xlveu.zip",
-            "size":1218004750
+            "datetime":1753698746,
+            "url":"https://github.com/danielml3/releases/releases/download/lineage-23.0-20250728-UNOFFICIAL-gta4xlveu-1753698746/lineage-23.0-20250728-UNOFFICIAL-gta4xlveu.zip",
+            "size":1254642655
         }
     ]
 }
