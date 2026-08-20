@@ -1,18 +1,15 @@
 [
   {
-    "datetime": 1781858358,
+    "datetime": 1787232911,
     "files": [
       {
-        "filename": "ota-package.zip",
-        "os_patch_level": "2026-06-01",
-        "os_sdk_level": 36,
-        "ota_property_files": "payload_metadata.bin:4662:187245,payload.bin:4662:1926274191,payload_properties.txt:1926278911:156,apex_info.pb:2220:1279,care_map.pb:3546:1069,metadata:69:683,metadata.pb:820:1352                        ",
-        "sha256": "11468fc263696b8bc0afd35861c35d62a562ba29722447a3972c39f0023deb7f",
-        "size": 1926282058,
-        "url": "https://example.com/full/ota-package.zip"
+        "filename": "lineage-23.2-20260820-UNOFFICIAL-gta4xlveu.zip",
+        "sha256": "fbcebd0e31ecac9c162f4549e70bbe797d4be4007cddbf924f819c9b6320e299",
+        "size": 1315372963,
+        "url": "https://github.com/danielml3/releases/releases/download/lineage-23.2-20260820-UNOFFICIAL-gta4xlveu-1787232911/lineage-23.2-20260820-UNOFFICIAL-gta4xlveu.zip"
       }
     ],
-    "type": "nightly",
+    "type": "unofficial",
     "version": "23.2"
   }
 ]
