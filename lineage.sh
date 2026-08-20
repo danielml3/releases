@@ -19,6 +19,9 @@ FILE=$(basename $FILE_PATH)
 ID=$(sha256sum $FILE_PATH | cut -d " " -f 1)
 VERSION=$(echo $FILE | cut -d \- -f 2)
 DATETIME=$(unzip -p $FILE_PATH META-INF/com/android/metadata | grep post-timestamp | cut -d = -f 2)
+SDKLEVEL=$(unzip -p $FILE_PATH META-INF/com/android/metadata | grep post-sdk-level | cut -d = -f 2)
+SECURITYPATCH=$(unzip -p $FILE_PATH META-INF/com/android/metadata | grep post-security-patch-level | cut -d = -f 2)
+OTAPROPERTYFILES=$(unzip -p $FILE_PATH META-INF/com/android/metadata | grep ota-property-files | cut -d = -f 2)
 RELEASE=$(echo $FILE | sed s/\.zip//g)-$DATETIME
 URL=https://github.com/danielml3/releases/releases/download/$RELEASE/$FILE
 SIZE=$(du -b $FILE_PATH | cut -f 1)
@@ -46,6 +49,9 @@ cat << EOF > $JSON_V2
     "files": [
       {
         "filename": "$FILE",
+	"os_patch_level": "$SECURITYPATCH",
+	"os_sdk_level": $SDKLEVEL,
+	"ota_property_files": "$OTAPROPERTYFILES",
         "sha256": "$ID",
         "size": $SIZE,
         "url": "$URL"
