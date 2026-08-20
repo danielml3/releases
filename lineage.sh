@@ -49,9 +49,9 @@ cat << EOF > $JSON_V2
     "files": [
       {
         "filename": "$FILE",
-	"os_patch_level": "$SECURITYPATCH",
-	"os_sdk_level": $SDKLEVEL,
-	"ota_property_files": "$OTAPROPERTYFILES",
+        "os_patch_level": "$SECURITYPATCH",
+        "os_sdk_level": $SDKLEVEL,
+        "ota_property_files": "$OTAPROPERTYFILES",
         "sha256": "$ID",
         "size": $SIZE,
         "url": "$URL"
