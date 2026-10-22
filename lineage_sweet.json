@@ -1,13 +1,13 @@
 {
     "response":[
         {
-            "filename":"lineage-23.2-20260130-UNOFFICIAL-sweet.zip",
-            "id":"d801be5f06bf82cd8526c87031aef2c3bf3dd62a302a97494cf49a34178dd918",
-            "version":"23.2",
+            "filename":"lineage-24.0-20261022-UNOFFICIAL-sweet.zip",
+            "id":"9e936600eb7f6a84ab23b7d2105167300533a527f94b43d2f726fb5016ca5f72",
+            "version":"24.0",
             "romtype":"unofficial",
-            "datetime":1769785535,
-            "url":"https://github.com/danielml3/releases/releases/download/lineage-23.2-20260130-UNOFFICIAL-sweet-1769785535/lineage-23.2-20260130-UNOFFICIAL-sweet.zip",
-            "size":1411605567
+            "datetime":1792678315,
+            "url":"https://github.com/danielml3/releases/releases/download/lineage-24.0-20261022-UNOFFICIAL-sweet-1792678315/lineage-24.0-20261022-UNOFFICIAL-sweet.zip",
+            "size":1462315066
         }
     ]
 }

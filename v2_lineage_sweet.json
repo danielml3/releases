@@ -1,0 +1,18 @@
+[
+  {
+    "datetime": 1792678315,
+    "files": [
+      {
+        "filename": "lineage-24.0-20261022-UNOFFICIAL-sweet.zip",
+        "os_patch_level": "2026-09-01",
+        "os_sdk_level": 37,
+        "ota_property_files": "metadata:69:339,metadata.pb:476:228                 ",
+        "sha256": "9e936600eb7f6a84ab23b7d2105167300533a527f94b43d2f726fb5016ca5f72",
+        "size": 1462315066,
+        "url": "https://github.com/danielml3/releases/releases/download/lineage-24.0-20261022-UNOFFICIAL-sweet-1792678315/lineage-24.0-20261022-UNOFFICIAL-sweet.zip"
+      }
+    ],
+    "type": "unofficial",
+    "version": "24.0"
+  }
+]
